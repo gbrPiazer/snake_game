@@ -1,0 +1,21 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #654321;
+    font-family: 'RocknRoll One', sans-serif;
+    color: rgba(166,110,54,1);
+    text-shadow: 4px -2px 0px rgba(166,110,54,0.67);
+}
+p{
+    text-shadow: none;
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 1px 1px 41px 15px rgba(166,110,54,1);
+    -webkit-box-shadow: 1px 1px 41px 15px rgba(166,110,54,1);
+    -moz-box-shadow: 1px 1px 41px 15px rgba(166,110,54,1);  
+}
